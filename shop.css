@@ -32,3 +32,68 @@ body{
     margin-top: 40px;
     margin-bottom: 40px;
  }
+
+ .row {
+   padding: 0 50px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 20px;
+ }
+
+ .card {
+   border: 1px solid black;
+   width: 300px;
+   transition: 0.3s;
+ }
+
+ .card:hover {
+   box-shadow:  0 8px 16px 0 black;
+}
+
+.vehicle {
+   width: 100%;
+   aspect-ratio: 4/3;
+   object-fit: cover;
+}
+
+.container {
+   padding: 2px 16px;
+}
+
+.vehicleText {
+   text-align: left;
+   line-height: 1.2;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.vehicleFeatures {
+   text-align: left;
+   font-size: medium;
+} 
+
+@media  screen and (max-width:1024px) {
+   
+}
+
+@media  screen and (max-width:768px) {
+
+}
+
+@media  screen and (max-width:576px) {
+   .headerSec {
+      padding: 0 20px;
+      height: 60px;
+   }
+   .logo {
+      height: 30px;
+   }
+   .imageSec {
+      height: 300px;
+   }
+   .newArrivals {
+      font-size: 25px;
+   }
+}
