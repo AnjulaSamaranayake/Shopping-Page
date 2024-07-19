@@ -75,11 +75,35 @@ body{
 } 
 
 @media  screen and (max-width:1024px) {
-   
+   .headerSec {
+      padding: 0 30px;
+      height: 80px;
+   }
+   .logo {
+      height: 45px;
+   }
+   .imageSec {
+      height: 500px;
+   }
+   .newArrivals {
+      font-size: 35px;
+   } 
 }
 
 @media  screen and (max-width:768px) {
-
+   .headerSec {
+      padding: 0 25px;
+      height: 70px;
+   }
+   .logo {
+      height: 40px;
+   }
+   .imageSec {
+      height: 400px;
+   }
+   .newArrivals {
+      font-size: 30px;
+   }
 }
 
 @media  screen and (max-width:576px) {
